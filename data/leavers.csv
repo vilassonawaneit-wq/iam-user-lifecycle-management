@@ -1,0 +1,3 @@
+employee_id,termination_date,leaver_type,reason
+E1002,2026-06-30,Voluntary,Resignation
+E1007,2026-07-10,Involuntary,Termination

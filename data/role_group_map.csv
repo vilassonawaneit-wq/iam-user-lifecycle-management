@@ -1,0 +1,6 @@
+department,groups
+ALL,GRP-All-Employees
+IT,GRP-IT-Staff;GRP-VPN-Users
+HR,GRP-HR-Staff;GRP-HRMS-Access
+Finance,GRP-Finance-Staff;GRP-ERP-Finance
+Sales,GRP-Sales-Staff;GRP-CRM-Users

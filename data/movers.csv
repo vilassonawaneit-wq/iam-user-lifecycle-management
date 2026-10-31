@@ -1,0 +1,4 @@
+employee_id,old_department,new_department,old_title,new_title,effective_date
+E1003,Sales,Finance,Sales Executive,Billing Analyst,2026-04-01
+E1006,HR,IT,Recruiter,IT Support Analyst,2026-04-15
+E1001,IT,IT,IT Support Analyst,Senior IT Support Analyst,2026-05-01

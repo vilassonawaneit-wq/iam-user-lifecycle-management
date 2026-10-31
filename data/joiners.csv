@@ -1,0 +1,9 @@
+employee_id,first_name,last_name,department,job_title,manager,start_date
+E1001,Aarav,Sharma,IT,IT Support Analyst,E1000,2026-01-05
+E1002,Diya,Patil,HR,HR Executive,E1000,2026-01-05
+E1003,Rohan,Kulkarni,Sales,Sales Executive,E1000,2026-01-12
+E1004,Neha,Joshi,Finance,Accountant,E1000,2026-01-12
+E1005,Kabir,Deshmukh,IT,Systems Administrator,E1000,2026-01-19
+E1006,Isha,More,HR,Recruiter,E1000,2026-01-19
+E1007,Vikram,Shinde,Sales,Account Manager,E1000,2026-02-02
+E1008,Ananya,Pawar,Finance,Financial Analyst,E1000,2026-02-02

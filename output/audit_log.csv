@@ -1,0 +1,56 @@
+date,event,employee_id,upn,action,detail
+2026-01-05,JOINER,E1001,aarav.sharma@contoso-lab.onmicrosoft.com,CREATE_ACCOUNT,IT / IT Support Analyst
+2026-01-05,JOINER,E1001,aarav.sharma@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-All-Employees
+2026-01-05,JOINER,E1001,aarav.sharma@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-IT-Staff
+2026-01-05,JOINER,E1001,aarav.sharma@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-VPN-Users
+2026-01-05,JOINER,E1002,diya.patil@contoso-lab.onmicrosoft.com,CREATE_ACCOUNT,HR / HR Executive
+2026-01-05,JOINER,E1002,diya.patil@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-All-Employees
+2026-01-05,JOINER,E1002,diya.patil@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-HR-Staff
+2026-01-05,JOINER,E1002,diya.patil@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-HRMS-Access
+2026-01-12,JOINER,E1003,rohan.kulkarni@contoso-lab.onmicrosoft.com,CREATE_ACCOUNT,Sales / Sales Executive
+2026-01-12,JOINER,E1003,rohan.kulkarni@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-All-Employees
+2026-01-12,JOINER,E1003,rohan.kulkarni@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-CRM-Users
+2026-01-12,JOINER,E1003,rohan.kulkarni@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-Sales-Staff
+2026-01-12,JOINER,E1004,neha.joshi@contoso-lab.onmicrosoft.com,CREATE_ACCOUNT,Finance / Accountant
+2026-01-12,JOINER,E1004,neha.joshi@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-All-Employees
+2026-01-12,JOINER,E1004,neha.joshi@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-ERP-Finance
+2026-01-12,JOINER,E1004,neha.joshi@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-Finance-Staff
+2026-01-19,JOINER,E1005,kabir.deshmukh@contoso-lab.onmicrosoft.com,CREATE_ACCOUNT,IT / Systems Administrator
+2026-01-19,JOINER,E1005,kabir.deshmukh@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-All-Employees
+2026-01-19,JOINER,E1005,kabir.deshmukh@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-IT-Staff
+2026-01-19,JOINER,E1005,kabir.deshmukh@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-VPN-Users
+2026-01-19,JOINER,E1006,isha.more@contoso-lab.onmicrosoft.com,CREATE_ACCOUNT,HR / Recruiter
+2026-01-19,JOINER,E1006,isha.more@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-All-Employees
+2026-01-19,JOINER,E1006,isha.more@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-HR-Staff
+2026-01-19,JOINER,E1006,isha.more@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-HRMS-Access
+2026-02-02,JOINER,E1007,vikram.shinde@contoso-lab.onmicrosoft.com,CREATE_ACCOUNT,Sales / Account Manager
+2026-02-02,JOINER,E1007,vikram.shinde@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-All-Employees
+2026-02-02,JOINER,E1007,vikram.shinde@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-CRM-Users
+2026-02-02,JOINER,E1007,vikram.shinde@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-Sales-Staff
+2026-02-02,JOINER,E1008,ananya.pawar@contoso-lab.onmicrosoft.com,CREATE_ACCOUNT,Finance / Financial Analyst
+2026-02-02,JOINER,E1008,ananya.pawar@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-All-Employees
+2026-02-02,JOINER,E1008,ananya.pawar@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-ERP-Finance
+2026-02-02,JOINER,E1008,ananya.pawar@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-Finance-Staff
+2026-04-01,MOVER,E1003,rohan.kulkarni@contoso-lab.onmicrosoft.com,REMOVE_GROUP,GRP-CRM-Users
+2026-04-01,MOVER,E1003,rohan.kulkarni@contoso-lab.onmicrosoft.com,REMOVE_GROUP,GRP-Sales-Staff
+2026-04-01,MOVER,E1003,rohan.kulkarni@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-ERP-Finance
+2026-04-01,MOVER,E1003,rohan.kulkarni@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-Finance-Staff
+2026-04-01,MOVER,E1003,rohan.kulkarni@contoso-lab.onmicrosoft.com,UPDATE_ATTRIBUTES,Sales/Sales Executive -> Finance/Billing Analyst
+2026-04-15,MOVER,E1006,isha.more@contoso-lab.onmicrosoft.com,REMOVE_GROUP,GRP-HR-Staff
+2026-04-15,MOVER,E1006,isha.more@contoso-lab.onmicrosoft.com,REMOVE_GROUP,GRP-HRMS-Access
+2026-04-15,MOVER,E1006,isha.more@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-IT-Staff
+2026-04-15,MOVER,E1006,isha.more@contoso-lab.onmicrosoft.com,ADD_GROUP,GRP-VPN-Users
+2026-04-15,MOVER,E1006,isha.more@contoso-lab.onmicrosoft.com,UPDATE_ATTRIBUTES,HR/Recruiter -> IT/IT Support Analyst
+2026-05-01,MOVER,E1001,aarav.sharma@contoso-lab.onmicrosoft.com,UPDATE_ATTRIBUTES,IT/IT Support Analyst -> IT/Senior IT Support Analyst
+2026-06-30,LEAVER,E1002,diya.patil@contoso-lab.onmicrosoft.com,DISABLE_ACCOUNT,Voluntary
+2026-06-30,LEAVER,E1002,diya.patil@contoso-lab.onmicrosoft.com,REVOKE_SESSIONS,refresh tokens revoked
+2026-06-30,LEAVER,E1002,diya.patil@contoso-lab.onmicrosoft.com,REMOVE_GROUP,GRP-All-Employees
+2026-06-30,LEAVER,E1002,diya.patil@contoso-lab.onmicrosoft.com,REMOVE_GROUP,GRP-HR-Staff
+2026-06-30,LEAVER,E1002,diya.patil@contoso-lab.onmicrosoft.com,REMOVE_GROUP,GRP-HRMS-Access
+2026-06-30,LEAVER,E1002,diya.patil@contoso-lab.onmicrosoft.com,SCHEDULE_DELETE,2026-07-30
+2026-07-10,LEAVER,E1007,vikram.shinde@contoso-lab.onmicrosoft.com,DISABLE_ACCOUNT,Involuntary
+2026-07-10,LEAVER,E1007,vikram.shinde@contoso-lab.onmicrosoft.com,REVOKE_SESSIONS,refresh tokens revoked
+2026-07-10,LEAVER,E1007,vikram.shinde@contoso-lab.onmicrosoft.com,REMOVE_GROUP,GRP-All-Employees
+2026-07-10,LEAVER,E1007,vikram.shinde@contoso-lab.onmicrosoft.com,REMOVE_GROUP,GRP-CRM-Users
+2026-07-10,LEAVER,E1007,vikram.shinde@contoso-lab.onmicrosoft.com,REMOVE_GROUP,GRP-Sales-Staff
+2026-07-10,LEAVER,E1007,vikram.shinde@contoso-lab.onmicrosoft.com,SCHEDULE_DELETE,2026-08-09
